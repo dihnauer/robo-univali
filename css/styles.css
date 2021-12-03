@@ -37,6 +37,20 @@ body {
   transition: 0.3s;
 }
 
+.regulamento-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.regulamento-icon svg path {
+  fill: #ffc328;
+}
+
+.regulamento-icon svg:hover path {
+  fill: #ffd873;
+  transition: 0.3s;
+}
+
 .participar a {
   width: 100%;
   padding: 15px;
@@ -62,4 +76,61 @@ hr {
   width: 100%;
   height: 1px;
   color: #ffffff;
+}
+
+.midias-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp,
+.instagram,
+.facebook,
+.twitter,
+.youtube {
+  width: 47px;
+  height: 47px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.whatsapp:hover {
+  opacity: 1;
+  transition: 0.3;
+}
+
+.instagram:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.facebook:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.twitter:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.youtube:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.univali-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.univali-logo svg {
+  width: 120px;
+  height: 82px;
 }

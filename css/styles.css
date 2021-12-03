@@ -6,12 +6,13 @@ body {
   margin-top: 60px;
 }
 
-.titulo {
+mark {
   background-color: #0080d8;
+  color: #ffffff;
+  line-height: 1.5;
 }
 
 .titulo h1 {
-  color: #ffffff;
   font-family: 'Spartan', sans-serif;
   font-size: 36px;
   font-weight: 700;
@@ -133,4 +134,70 @@ hr {
 .univali-logo svg {
   width: 120px;
   height: 82px;
+}
+
+@media (min-width: 575px) and (max-width: 768px) {
+  .paragrafos {
+    font-size: 20px;
+  }
+
+  .ocultar {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .conteudo {
+    margin-top: 24px;
+  }
+
+  .titulo h1 {
+    font-size: 24px;
+  }
+
+  .paragrafos {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .ocultar {
+    display: none;
+  }
+
+  .participar a {
+    font-size: 30px;
+    padding: 8px;
+  }
+
+  .participar {
+    margin-bottom: 50px;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .midias-sociais {
+    justify-content: space-around;
+  }
+
+  .whatsapp,
+  .instagram,
+  .facebook,
+  .twitter,
+  .youtube {
+    width: 32px;
+    height: 32px;
+    margin-left: 0px;
+  }
+
+  .univali-logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .univali-logo svg {
+    width: 70px;
+    height: 47px;
+  }
 }
